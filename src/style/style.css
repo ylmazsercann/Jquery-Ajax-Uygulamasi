@@ -1,0 +1,323 @@
+/*  Reset  */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*  Index  */
+
+input.error {
+    border: 1px solid red;
+}
+label.error {
+    color: red;
+    font-size: 14px;
+    display: block;
+    margin: -20px 0 10px 0 ;
+}
+
+.container {
+    width: 770px;
+    height: 485px;
+    border: 1px solid #dddddd;
+    margin: 49px 0 41px 135px;
+}
+.headline {
+    background-color: #f9f9f9;
+}
+.form-title {
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+    padding: 17px 0;
+    letter-spacing: -1px;
+}
+.register-form {
+    margin: 29px 0 0 29px;
+}
+.email , .order-id {
+    width: 710px;
+    height: 61px;
+    box-shadow: 2px 2px #bebebe;
+    border: 1px solid black;
+    margin: 0 0 30px 0;
+    padding: 0 0 0 37px;
+}
+.mid-txt{
+    padding: 0 0 112px 0;
+}
+.mid-txt p{
+    font-size: 16px;
+    color: #b6b6b6;
+}
+.mid-txt a{
+    color: #b6b6b6;
+}
+.bottom-txt p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 20px;
+}
+.row1 {
+    width: 509px;
+    padding:10px 30px 0 0 ;
+    float: left;
+}
+.row2 {
+    float: right;
+    margin: 0 29px 0 0;
+}
+.bottom-txt input {
+    width: 200px;
+    height: 60px;
+    border: 1px solid black;
+    background-color: #df0022;
+    color: #ffffff;
+    box-shadow: 2px 2px #000000;
+    font-size: 24px;
+    text-transform: uppercase;
+    float: right;
+}
+img {
+    width: 145px;
+    height: 145px;
+}
+.error-note {
+    font-size: 16px;
+    font-weight: bold;
+    color:red;
+}
+
+/*  Product Page  */
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 48px 20px 0 20px;
+}
+.wrapper p {
+    padding: 0 0 10px 0;
+}
+.statement {
+    width: 760px;
+    float: left;
+    font-size: 18px;
+}
+.products {
+    width: 370px;
+    float: right;
+}
+.strong {
+    font-weight: bold;
+}
+.pdtp {
+    margin-top: 50px;
+}
+.dokuman {
+    padding: 40px 0 70px 0;
+}
+.area-content {
+    padding: 0 0 34px 0;
+}
+.area-content textarea[placeholder] {
+    padding: 30px 0 0 30px;
+}
+.iade-sebep {
+    border: 1px solid black;
+    box-shadow: 2px 2px #bebebe;
+}
+.secondary{
+    margin: 0 10px 133px 0;
+}
+.btn-secondary {
+    width: 370px;
+    height: 60px;
+    border: 1px solid black;
+    background-color: #df0022;
+    color: #ffffff;
+    box-shadow: 2px 2px #000000;
+    font-size: 24px;
+    text-transform: uppercase;
+    float: right;
+    margin: 0 30px 0 0;
+}
+.products {
+    border: 1px solid #dddddd;
+    padding: 0 0 30px 0;
+}
+.tab {
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+    background-color: #f9f9f9;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+.urunler {
+    width: 490px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.resim{
+    width: 145px;
+    float: left;
+    margin: 0 25px 0 0;
+}
+.img-detail {
+    border: 1px solid #dddddd;
+}
+.yazi {
+    width: 180px;
+    float: left;
+    font-size: 20px;
+}
+.veri-tutma {
+    font-size: 24px;
+}
+
+.cizgi {
+    width: 355px;
+    height: 1px;
+    border-bottom: 1px solid #333333;
+    display: inline-block;
+    margin: 0 25px;
+    font-weight: normal;
+}
+.top-last-text {
+    font-size: 20px;
+}
+.top-txt {
+    padding: 9px 0 27px 0;
+}
+.table100 {
+    width : 100%;
+}
+.check-wd {
+    width: 100px;
+    text-align: center;
+}
+.th-lft {
+    text-align: left;
+}
+.quality-style {
+    border: 1px solid black;
+    width: 170px;
+    height: 60px;
+    box-shadow: 2px 2px #bebebe;
+}
+.quality-style-iade {
+    border: 1px solid black;
+    width: 340px;
+    height: 60px;
+    box-shadow: 2px 2px #bebebe;
+    margin: 0 28px;
+}
+.urun-tutma {
+    margin: 0 0 30px 0;
+    width: 100%;
+}
+.div-brd {
+    border:1px solid #e0e0e0;
+    width: 100%;
+    margin: 0 0 30px 0;
+    overflow-x:auto;
+}
+.urun-tutma thead th {
+    background-color: #f9f9f9;
+    padding: 25px 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.last-th {
+    width: 370px;
+}
+.top-txt {
+    width: 100%;
+}
+
+.checkbox-row {
+    width: 72px;
+    padding: 30px 0 0 0;
+    text-align: center;
+    float: left;
+}
+.row1-product{
+    width: 500px;
+    float: left;
+}
+.row1-product .detay {
+    padding: 20px 0 20px 30px;
+}
+
+
+/*  Media Queries */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+    .container , .headline, .register-form ,.wrapper , .row1-product , .checkbox-row {
+        width: 100%;
+        border: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .headline {
+        background-color: #df0022;
+        color: #ffffff;
+    }
+    .email, .order-id , .top-txt , .veri-tutma {
+        width: 100%;
+    }
+    .cizgi , .top-last-text {
+        display: none;
+    }
+    .inputs, .mid-txt {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .bottom-txt {
+        width: 100%;
+        position: absolute;
+        bottom:0;
+        margin:0 0 20px 0
+    }
+    .row1 {
+        padding: 0 100px 100px 100px;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+     .row2 {
+        border-top: 1px solid black;
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    .row2 input {
+        width: 100%;
+    }
+    .form-title {
+        padding: 57px 0 17px 0;
+    }
+    .checkbox-row{
+        padding: 30px 0;
+    }
+    .row1-product .detay{
+        padding: 0 0 10px 0;
+    }
+    .btn-secondary {
+        width: 100%;
+        float: none;
+    }
+    .quality-style-iade{
+        width: 170px;
+    }
+}
